@@ -1,0 +1,16 @@
+{
+    "name": "Systems.Scene",
+    "rootNamespace": "",
+    "references": [
+        "GUID:362de69ccaec31d4db977285166685f9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
