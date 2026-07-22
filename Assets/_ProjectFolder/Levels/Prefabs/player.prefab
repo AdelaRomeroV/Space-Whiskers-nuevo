@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4970099215112867735}
   - component: {fileID: 5259041621654062038}
   - component: {fileID: 808816174595997563}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gun handler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4883835176912936028}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: atack point
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3174022445877343780}
   - component: {fileID: 752956646496807063}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: render
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 7071835632588490049}
   - component: {fileID: 3305694527673767273}
   - component: {fileID: 1697959142669393291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,9 +305,9 @@ GameObject:
   - component: {fileID: 3291792068797634771}
   - component: {fileID: 2153206006836431066}
   - component: {fileID: 5412720923038776164}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,7 +402,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
