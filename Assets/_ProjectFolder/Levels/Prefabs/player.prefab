@@ -10,9 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4970099215112867735}
   - component: {fileID: 5259041621654062038}
-  - component: {fileID: 2160481824420746895}
-  - component: {fileID: 6366546970172070071}
-  - component: {fileID: 9179992501404564295}
+  - component: {fileID: 808816174595997563}
   m_Layer: 0
   m_Name: gun handler
   m_TagString: Untagged
@@ -48,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b9c1cf37038d39f9706766f65180e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character.Controller.WeaponAim
---- !u!114 &2160481824420746895
+--- !u!114 &808816174595997563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,48 +59,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Character.Controller::Character.Controller.AimSourceMouse
   origin: {fileID: 2399715476873998884}
---- !u!114 &6366546970172070071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991322825394603565}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea17d505d1b235023aca1540c4b1562c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Character.Controller::Character.Controller.AimSourceJoyStick
-  stickReference: {fileID: -5630151704836100654, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
-  deathZone: 0.15
---- !u!114 &9179992501404564295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991322825394603565}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fabdf230f8b15d3c0b7671d168c42b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Character.Controller::Character.Controller.AimSourceAutomatic
-  refreshRate: 0.02
-  radius: 7
-  contactFilter:
-    useTriggers: 0
-    useLayerMask: 1
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
 --- !u!1 &4437204985784414101
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ namespace Character.Controller
     public class AimSourceAutomatic : MonoBehaviour, IAimSource
     {
         [SerializeField, Min(0.02f)] private float refreshRate = 0.02f;
-        [SerializeField] private float radius;
+        [SerializeField] private float radius = 5f;
         [SerializeField] private ContactFilter2D contactFilter;
 
         private WaitForSeconds _waitRefreshRate;

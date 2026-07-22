@@ -9,10 +9,11 @@ namespace Character.Controller
         private Camera _camera;
 
         private void Awake() => _camera = Camera.main;
+        private void Reset() => origin = transform.root;
 
         public bool TryGetAimDirection(out Vector2 direction)
         {
-            if (origin == null || _camera == null) {
+            if (!origin || !_camera) {
                 direction = Vector2.zero;
                 return false;
             }

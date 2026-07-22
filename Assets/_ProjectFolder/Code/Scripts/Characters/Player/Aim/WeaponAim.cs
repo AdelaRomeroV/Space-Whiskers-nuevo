@@ -10,7 +10,7 @@ namespace Character.Controller
         private void Awake()
         {
             _transform = transform;
-            _aimSource = GetComponentInChildren<IAimSource>(false);
+            _aimSource = GetComponent<IAimSource>();
         }
         private void FixedUpdate()
         {
