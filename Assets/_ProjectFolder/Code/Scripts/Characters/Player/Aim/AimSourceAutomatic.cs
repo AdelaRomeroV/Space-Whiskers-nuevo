@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Character.Controller
+namespace Character.Controller.Aim
 {
     public class AimSourceAutomatic : MonoBehaviour, IAimSource
     {

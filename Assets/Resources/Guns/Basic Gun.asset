@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Basic Gun
   m_EditorClassIdentifier: Character.Controller::Character.Controller.ScriptableGun
   gunImage: {fileID: 0}
-  bullet: {fileID: 1412215043968500750, guid: 0a0b11324ae9c73fbb245b5d401ee8ff, type: 3}
+  bullet: {fileID: 11400000, guid: f9f15cc4f36724890a3c439615ea2534, type: 2}
+  speed: 10
   knockback: 10

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Character.Controller
+namespace Character.Controller.Aim
 {
     public interface IAimSource
     {

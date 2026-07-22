@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8584311941165995695}
   - component: {fileID: 7762163147296651846}
   - component: {fileID: 4662658629772460870}
-  - component: {fileID: -1906520393431520565}
+  - component: {fileID: 6687347118664015386}
   m_Layer: 0
-  m_Name: bullet base
+  m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,11 +153,11 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &-1906520393431520565
+--- !u!114 &6687347118664015386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6868051005300995492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10747b62249dc6836a60efa707016e36, type: 3}
+  m_Script: {fileID: 11500000, guid: c5711737ce3cec49a90af89340987d82, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Character.Controller::Character.Controller.Bullet
-  damage: 0
+  m_EditorClassIdentifier: NewAssembly::Character.Controller.Shooter.Bullet
+  render: {fileID: 8584311941165995695}

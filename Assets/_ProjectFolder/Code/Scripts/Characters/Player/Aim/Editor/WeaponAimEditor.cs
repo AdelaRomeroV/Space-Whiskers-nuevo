@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace Character.Controller
+namespace Character.Controller.Aim
 {
     [CustomEditor(typeof(WeaponAim))]
     public class WeaponAimEditor : Editor

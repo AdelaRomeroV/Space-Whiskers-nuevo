@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Character.Controller
+namespace Character.Controller.Interaction
 {
     public class Interact : MonoBehaviour
     {

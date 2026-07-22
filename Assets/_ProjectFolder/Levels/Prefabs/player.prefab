@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 2449597778496584535}
   - component: {fileID: 639882554279054169}
   - component: {fileID: 3291792068797634771}
+  - component: {fileID: 958376314492761302}
   - component: {fileID: 2153206006836431066}
   - component: {fileID: 5412720923038776164}
   m_Layer: 3
@@ -558,6 +559,18 @@ MonoBehaviour:
   startAccelRate: 7
   stopAccelRate: 9
   turnAccelRate: 10
+--- !u!114 &958376314492761302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979804565915854595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84073d2b72d7af54387ccc94a2cf0ace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Character.Controller::Character.Controller.Health
 --- !u!114 &2153206006836431066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,9 +583,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f84db896c5c4beb4941870c7f092dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Character.Controller::Character.Controller.Shoot
+  parent: {fileID: 0}
+  prefab: {fileID: 6687347118664015386, guid: 9ede62d0670595048b356a9d7aa7c7cd, type: 3}
   aimDirection: {fileID: 4970099215112867735}
   attackPoint: {fileID: 4883835176912936028}
-  gun: {fileID: 11400000, guid: 9790e2315edeb01d18242321d32c026e, type: 2}
+  currentGun: {fileID: 11400000, guid: 9790e2315edeb01d18242321d32c026e, type: 2}
 --- !u!114 &5412720923038776164
 MonoBehaviour:
   m_ObjectHideFlags: 0

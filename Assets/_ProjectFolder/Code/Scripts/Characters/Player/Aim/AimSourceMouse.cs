@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Character.Controller
+namespace Character.Controller.Aim
 {
     public class AimSourceMouse : MonoBehaviour, IAimSource
     {

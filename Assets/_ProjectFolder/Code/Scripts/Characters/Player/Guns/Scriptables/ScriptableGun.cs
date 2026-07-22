@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Character.Controller
+namespace Character.Controller.Shooter
 {
     [CreateAssetMenu(fileName = "Gun", menuName = "Items/Gun")]
     public class ScriptableGun : ScriptableObject
@@ -9,10 +9,13 @@ namespace Character.Controller
         [SerializeReference] private Sprite gunImage;
 
         [Header("Bullet Type")]
-        [SerializeReference] private Bullet bullet;
-        [SerializeField] private float knockback;
+        [SerializeReference] private ScriptableBullet bullet;
+        [SerializeField] private float speed, knockback;
 
-        public Bullet Bullet => bullet;
+        public Sprite GunImage => gunImage;
+        
+        public ScriptableBullet Bullet => bullet;
+        public float Speed => speed;
         public float Knockback => knockback;
     }
 }
