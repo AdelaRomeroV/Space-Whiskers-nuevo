@@ -4,8 +4,9 @@ namespace Character.Controller
 {
     public class Shoot : MonoBehaviour
     {
-        [SerializeField] private Transform aimDirection, attackPoint;
-
+        [SerializeReference] private Transform aimDirection, attackPoint;
+        [SerializeReference] private ScriptableGun gun;
+        
         private ObjectAnimations _animator;
         private ObjectPhysics _physics;
 
@@ -17,8 +18,12 @@ namespace Character.Controller
 
         private void OnAttack()
         {
+            if (!gun || Time.timeScale == 0f) return;
+
+            Instantiate(gun.Bullet, attackPoint.position, aimDirection.rotation);
+            
             //shoot knockback
-            _physics.AddForce(10 * -aimDirection.right, ForceMode2D.Impulse);
+            _physics.AddForce(gun.Knockback * -aimDirection.right, ForceMode2D.Impulse);
         }
     }
 }
