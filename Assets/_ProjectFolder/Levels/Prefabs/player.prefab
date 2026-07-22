@@ -284,7 +284,7 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -100
-  m_SortAtRoot: 0
+  m_SortAtRoot: 1
   m_Sort3DAs2D: 0
 --- !u!1 &8979804565915854595
 GameObject:

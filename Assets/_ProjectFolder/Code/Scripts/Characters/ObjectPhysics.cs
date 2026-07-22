@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Character
 {
+    [SelectionBase]
     public class ObjectPhysics : MonoBehaviour
     {
         private Transform _transform;
