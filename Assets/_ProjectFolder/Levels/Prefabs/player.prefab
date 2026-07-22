@@ -208,7 +208,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 3afada2811f37403d9300f58c139593d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -571,6 +571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84073d2b72d7af54387ccc94a2cf0ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Character.Controller::Character.Controller.Health
+  maxHealth: 5
+  damageKnockback: 10
+  invulnerability:
+    invulnerabilityTime: 1
+    blinkInterval: 0.1
+    skinMaterial: {fileID: 2100000, guid: 3afada2811f37403d9300f58c139593d, type: 2}
 --- !u!114 &2153206006836431066
 MonoBehaviour:
   m_ObjectHideFlags: 0

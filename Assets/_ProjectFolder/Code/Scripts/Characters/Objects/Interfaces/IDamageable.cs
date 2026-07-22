@@ -4,6 +4,6 @@ namespace Character
 {
     public interface IDamageable
     {
-        void Damage(int amount);
+        void Damage(int amount, Vector2 direction = default);
     }
 }

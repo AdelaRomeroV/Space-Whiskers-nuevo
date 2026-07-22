@@ -18,15 +18,20 @@ namespace Character.Controller.Shooter
         }
 
         private void Reset() => render = GetComponent<SpriteRenderer>();
-        private void FixedUpdate() => _rigidbody.MovePosition(Time.fixedDeltaTime * _speed * transform.right + transform.position);
+        private void FixedUpdate() => _rigidbody.MovePosition(Time.fixedDeltaTime * _speed * Transform.right + Transform.position);
         private void OnBecameInvisible() => Release();
-
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.TryGetComponent(out IDamageable damageable))
-                damageable.Damage(_damage);
+                ApplyDamage(damageable, other.transform.position);
             
             Release();
+        }
+
+        private void ApplyDamage(IDamageable damageable, Vector2 target)
+        {
+            Vector2 direction = target - (Vector2)Transform.position;
+            damageable.Damage(_damage, direction.normalized);
         }
 
         public void Setup(ScriptableBullet bullet, float speed = 1f)

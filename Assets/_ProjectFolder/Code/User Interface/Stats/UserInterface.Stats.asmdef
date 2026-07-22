@@ -1,0 +1,16 @@
+{
+    "name": "UserInterface.Stats",
+    "rootNamespace": "UserInterface.Stats",
+    "references": [
+        "GUID:43baf9aefaff56ecb8a31f4c47fc953c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Character.Controller.Health",
+    "rootNamespace": "Character.Controller.Life",
+    "references": [
+        "GUID:c56aef15184e44b43bca3675253deeca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
