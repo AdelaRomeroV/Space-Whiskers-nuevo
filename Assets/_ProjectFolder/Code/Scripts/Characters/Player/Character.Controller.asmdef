@@ -1,0 +1,17 @@
+{
+    "name": "Character.Controller",
+    "rootNamespace": "Character.Controller",
+    "references": [
+        "GUID:c56aef15184e44b43bca3675253deeca",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
