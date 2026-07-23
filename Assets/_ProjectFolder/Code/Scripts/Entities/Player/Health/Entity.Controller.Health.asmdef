@@ -1,9 +1,8 @@
 {
-    "name": "UserInterface.Stats",
-    "rootNamespace": "UserInterface.Stats",
+    "name": "Entity.Controller.Health",
+    "rootNamespace": "Entity.Controller.Life",
     "references": [
-        "GUID:43baf9aefaff56ecb8a31f4c47fc953c",
-        "GUID:1cc783c2b4f22614fb6745b5f094eaaf"
+        "GUID:c56aef15184e44b43bca3675253deeca"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,10 +1,7 @@
 {
-    "name": "UserInterface.Stats",
-    "rootNamespace": "UserInterface.Stats",
-    "references": [
-        "GUID:43baf9aefaff56ecb8a31f4c47fc953c",
-        "GUID:1cc783c2b4f22614fb6745b5f094eaaf"
-    ],
+    "name": "Entity",
+    "rootNamespace": "Entity",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

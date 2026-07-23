@@ -1,5 +1,5 @@
 using UnityEngine;
-using Character.Controller.Life;
+using Entity.Controller.Life;
 
 namespace UserInterface.Stats
 {

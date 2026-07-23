@@ -1,11 +1,12 @@
 {
-    "name": "UserInterface.Stats",
-    "rootNamespace": "UserInterface.Stats",
+    "name": "Entity.Controller.Aim.Editor",
+    "rootNamespace": "Entity.Controller.Aim",
     "references": [
-        "GUID:43baf9aefaff56ecb8a31f4c47fc953c",
-        "GUID:1cc783c2b4f22614fb6745b5f094eaaf"
+        "GUID:abc5a95eb5eeaea4ca9a5dd686f7710e"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

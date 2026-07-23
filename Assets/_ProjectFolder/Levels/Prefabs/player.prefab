@@ -362,8 +362,9 @@ GameObject:
   - component: {fileID: 1314470282427320001}
   - component: {fileID: 2449597778496584535}
   - component: {fileID: 639882554279054169}
-  - component: {fileID: 3291792068797634771}
   - component: {fileID: 958376314492761302}
+  - component: {fileID: 3291792068797634771}
+  - component: {fileID: 1486939366214443047}
   - component: {fileID: 2153206006836431066}
   - component: {fileID: 5412720923038776164}
   m_Layer: 3
@@ -543,6 +544,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 807f64259628a2810a95139d315dc837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character.ObjectAnimations
+--- !u!114 &958376314492761302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979804565915854595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84073d2b72d7af54387ccc94a2cf0ace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Character.Controller::Character.Controller.Health
+  maxHealth: 5
+  damageKnockback: 10
+  invulnerability:
+    skinMaterial: {fileID: 2100000, guid: 3afada2811f37403d9300f58c139593d, type: 2}
+    duration: 1
+    blinkInterval: {x: 0.15, y: 0.05}
+    fastPhaseThreshold: 0.5
 --- !u!114 &3291792068797634771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +579,7 @@ MonoBehaviour:
   startAccelRate: 7
   stopAccelRate: 9
   turnAccelRate: 10
---- !u!114 &958376314492761302
+--- !u!114 &1486939366214443047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -568,15 +588,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 8979804565915854595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84073d2b72d7af54387ccc94a2cf0ace, type: 3}
+  m_Script: {fileID: 11500000, guid: 71a70635f98971e4a981b76a706400b6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Character.Controller::Character.Controller.Health
-  maxHealth: 5
-  damageKnockback: 10
-  invulnerability:
-    invulnerabilityTime: 1
-    blinkInterval: 0.1
-    skinMaterial: {fileID: 2100000, guid: 3afada2811f37403d9300f58c139593d, type: 2}
+  m_EditorClassIdentifier: Character.Controller::Character.Controller.Dash
+  speed: 20
+  duration: 0.5
+  timeRecovery: 1.5
+  excludedLayers:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!114 &2153206006836431066
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,9 +1,10 @@
 {
-    "name": "UserInterface.Stats",
-    "rootNamespace": "UserInterface.Stats",
+    "name": "Entity.Controller.Shooter",
+    "rootNamespace": "Entity.Controller.Shooter",
     "references": [
-        "GUID:43baf9aefaff56ecb8a31f4c47fc953c",
-        "GUID:1cc783c2b4f22614fb6745b5f094eaaf"
+        "GUID:c56aef15184e44b43bca3675253deeca",
+        "GUID:0100e88a408bfe5d282890b3a9a54727",
+        "GUID:4307f53044263cf4b835bd812fc161a4"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

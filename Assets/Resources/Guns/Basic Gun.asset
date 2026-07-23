@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Character.Controller::Character.Controller.ScriptableGun
   gunImage: {fileID: 0}
   bullet: {fileID: 11400000, guid: f9f15cc4f36724890a3c439615ea2534, type: 2}
-  speed: 1
-  knockback: 10
+  velocity: 10
+  recoil: 0.25
